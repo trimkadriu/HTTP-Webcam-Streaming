@@ -1,0 +1,13 @@
+D:\Projects\WebCamStream\WebCamStream\WebCamStream\bin\Debug\WebCamStream.exe.config
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\WebCamStream.exe.config
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\WebCamStream.exe
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\WebCamStream.pdb
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\AForge.Video.DirectShow.dll
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\AForge.Video.dll
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.csprojResolveAssemblyReference.cache
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.MainForm.resources
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.Properties.Resources.resources
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.csproj.GenerateResource.Cache
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.exe
+D:\Projects\WebCamStream\WebCamStream\obj\Debug\WebCamStream.pdb
+D:\Projects\WebCamStream\WebCamStream\bin\Debug\Newtonsoft.Json.dll

@@ -1,0 +1,131 @@
+* {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    color: #666;
+}
+h1 {
+    margin: 0 0 15px 0;
+    text-align: center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    color: #666;
+}
+#stream-box {
+    width: 400px;
+    height: 300px;
+    background: lightgrey;
+    border: 2px solid darkgrey;
+    margin: 15px 0 0 0;
+}
+#status {
+    margin-top: 15px;
+    width: 380px;
+    border: 1px dashed darkred;
+    background: lightgoldenrodyellow;
+    padding: 2px 10px 2px 10px;
+    display: none;
+}
+main {
+    width: 405px;
+    margin: 30px auto;
+    padding: 20px;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(153,153,153,1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(153,153,153,1);
+    box-shadow: 0px 0px 10px 1px rgba(153,153,153,1);
+    background: rgb(247,251,252); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(247,251,252,1) 0%, rgba(217,237,242,1) 40%, rgba(173,217,228,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(247,251,252,1)), color-stop(40%,rgba(217,237,242,1)), color-stop(100%,rgba(173,217,228,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(247,251,252,1) 0%,rgba(217,237,242,1) 40%,rgba(173,217,228,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#add9e4',GradientType=0 ); /* IE6-9 */
+}
+select option.online {
+    background: #84ff7c;
+    color:#333;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+select option.offline {
+    background: #ff847c;
+    color:#333;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+footer p {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 12px;
+}
+#buttons-section {
+    float: right;
+    padding: 20px 0px 0 0;
+}
+#start-stream {
+    margin: 5px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border:1px solid #337fed;
+    padding:4px 11px;
+    text-decoration:none;
+    background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+    background:-ms-linear-gradient( top, #3d94f6 5%, #1e62d0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #3d94f6), color-stop(100%, #1e62d0) );
+    background-color:#3d94f6;
+    color:#ffffff;
+    display:inline-block;
+    text-shadow:1px 1px 0px #1570cd;
+    -webkit-box-shadow:inset 1px 1px 0px 0px #97c4fe;
+    -moz-box-shadow:inset 1px 1px 0px 0px #97c4fe;
+    box-shadow:inset 1px 1px 0px 0px #97c4fe;
+}
+#stop-stream {
+    margin: 5px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    border:1px solid #d83526;
+    padding:4px 11px;
+    text-decoration:none;
+    background:-moz-linear-gradient( center top, #fa665a 5%, #d34639 100% );
+    background:-ms-linear-gradient( top, #fa665a 5%, #d34639 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa665a', endColorstr='#d34639');
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #fa665a), color-stop(100%, #d34639) );
+    background-color:#fa665a;
+    color:#ffffff;
+    display:inline-block;
+    text-shadow:1px 1px 0px #98231a;
+    -webkit-box-shadow:inset 1px 1px 0px 0px #fab3ad;
+    -moz-box-shadow:inset 1px 1px 0px 0px #fab3ad;
+    box-shadow:inset 1px 1px 0px 0px #fab3ad;
+}
+#stop-stream:hover,
+#start-stream:hover {
+    cursor: pointer;
+}
+#inputs-section {
+    width: 200px;
+    float: left;
+}
+#inputs-section select {
+    margin-bottom: 10px;
+}
+#close-button {
+    float: right;
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0 -8px 0 10px;
+    border: 1px solid #666;
+    padding: 0 4px;
+}
