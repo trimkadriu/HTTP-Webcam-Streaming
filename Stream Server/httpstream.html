@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>WebCam Stream v1.0</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <main>
+        <h1>
+            <img src="img/favicon.ico" width="18">
+            WebCam Stream v1.0
+        </h1>
+        <article>
+            <section id="inputs-section">
+                <div>
+                    <label for="auth-id">Auth ID: </label>
+                    <select id="auth-id">
+                        <option value="" disabled selected>--> Select AUTH ID <--</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="stream-speed">Auth ID: </label>
+                    <input type="number" id="stream-speed" value="300"/>
+                </div>
+            </section>
+            <section id="buttons-section">
+                <input type="button" id="start-stream" value="Start STREAM!"/><br/>
+                <input type="button" id="stop-stream" value="Stop STREAM!"/>
+            </section>
+        </article>
+        <article>
+            <img id="stream-box">
+        </article>
+        <aside id="status">test</aside>
+        <footer>
+            <p>Copyright &copy; 2015. Trim Kadriu &lt;trim.kadriu@gmail.com&gt;</p>
+        </footer>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
